@@ -10,10 +10,10 @@ import {
 
 export default async function Page() {
   const revenue = await fetchRevenue();
-  console.log(revenue);
+//   console.log(revenue);
   
   const latestInvoices = await fetchLatestInvoices();
-  console.log(latestInvoices);
+//   console.log(latestInvoices);
   const {
     numberOfInvoices,
     numberOfCustomers,
